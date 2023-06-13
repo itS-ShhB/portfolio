@@ -2,7 +2,13 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        cabin: ["Cabin", "sans-serif"],
+        Quicksand: ["Quicksand", "sans-serif"],
+        Roboto: ["Roboto", "sans-serif"],
+      },
+    },
   },
   plugins: [],
 };

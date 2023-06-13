@@ -1,14 +1,18 @@
 // import "./App.css";
-import NavBar from "./components/NavBar";
+import NavBar from "./components/shared/NavBar";
 import { Route, Routes } from "react-router-dom";
-import Footer from "./components/Footer";
+import Footer from "./components/shared/Footer";
+import AboutUs from "./components/AboutUs";
+import Landing from "./components/Landing";
 
 function App() {
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex min-h-screen flex-col font-Roboto">
       <NavBar />
-      <h1>Hi</h1>
-      <Routes></Routes>
+      <Routes>
+        <Route path="/aboutus" element={<AboutUs />} />
+        <Route path="/" element={<Landing />} />
+      </Routes>
       <Footer />
     </div>
   );
