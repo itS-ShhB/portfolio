@@ -10,3 +10,12 @@ html {
   -o-background-size: cover;
   background-size: cover;
 }
+
+.dark {
+  background: url("./assets/side-wave_backgroundDark.svg") no-repeat center
+    center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
