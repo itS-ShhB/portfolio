@@ -1,9 +1,7 @@
 //Image's
 import profPic from "../../assets/IMG_3864.png";
-import Moon from "../../assets/moon.svg";
 import MoonWhite from "../../assets/moon white.svg";
 import Sun from "../../assets/sun.svg";
-import SunWhite from "../../assets/sun White.svg";
 
 //Motion
 import { motion } from "framer-motion";
